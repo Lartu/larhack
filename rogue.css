@@ -1,0 +1,41 @@
+@font-face {
+    font-family: ProggySquare;
+    src: url('ProggySquare.ttf');
+}
+
+body {
+    background-color: black;
+    font-family: ProggySquare, monospace;
+    font-size: 12pt;
+    color: #999999;
+    text-align: center;
+}
+
+#text_area {
+    line-height: 8pt;
+    padding: 0px;
+    margin: 0px;
+    white-space: pre;
+}
+
+#footnote_area{
+    color: #AAAAAA;
+}
+
+b {
+    font-weight:400;
+    color: #FF5555;
+}
+
+i {
+    font-style: normal;
+    color: #2d8e47;
+}
+
+a{
+    color: #5555FF;
+}
+
+a:hover{
+    background-color: #000055;
+}
